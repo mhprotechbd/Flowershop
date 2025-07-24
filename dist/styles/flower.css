@@ -413,6 +413,9 @@
   .bg-\[url\] {
     background-color: url;
   }
+  .bg-\[url\(\'\.\.\/dist\/assets\/deal-bloom\.png\'\)\] {
+    background-image: url('../dist/assets/deal-bloom.png');
+  }
   .bg-\[url\(\'\.\/dist\/assets\/deal-bloom\.png\'\)\] {
     background-image: url('./dist/assets/deal-bloom.png');
   }
