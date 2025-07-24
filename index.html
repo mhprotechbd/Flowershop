@@ -171,14 +171,14 @@
               offer a wide variety of fresh.</li>
           </ul>
         </div>
-        <img class="hidden md:block md:h-[286px] md:absolute md:-top-30 md:left-[340px] drop-shadow-xl/50"
+        <img
+          class="hidden md:block md:h-[286px] md:absolute md:-top-30 md:left-[340px] md:filter md:drop-shadow-lg md:motion-safe:animate-spin"
           src="./dist/assets/trusted-badge.png" alt="">
       </div>
     </section>
-
     <!-- Latest Deal -->
-    <section class="custom-container px-3 mb-28">
-      <div class="">
+    <section class="custom-container px-3 mb-10 md:mb-28">
+      <div>
         <div class="mb-12">
           <h1 class="text-2xl md:text-[50px] font-bold text-center font-noto"><span class="text-[#E95A08]">Latest</span>
             Deals</h1>
@@ -192,48 +192,130 @@
             blooms, we
             offer a wide variety of fresh.</p>
         </div>
-
-        <div class="grid grid-cols-1 md:grid-cols-12 lg:grid-rows-12 gap-5 text-white">
+        <div class="grid grid-cols-1 md:grid-cols-12 md:grid-rows-6 text-center justify-center text-white gap-6">
           <div
-            class="bg-[url('../assets/deal-bloom.png')] bg-no-repeat bg-cover bg-center rounded-[14px] overflow-hidden md:col-span-6 lg:col-span-4 lg:row-start-1 lg:row-end-7">
-            <div class="text-center bg-[rgba(0,0,0,0.4)] px-4 py-14 h-full flex justify-center items-center flex-col">
-              <h5 class="text-xl font-[Noto_Serif] font-bold mb-1.5">
-                60% Off | Bloom Plant
-              </h5>
-              <a href="#" class="text-base font-semibold underline">Shop Now</a>
+            class="bg-[url('../assets/deal-bloom.png')] bg-no-repeat bg-cover rounded-[14px] overflow-hidden md:col-span-4 md:row-span-3 md:row-start-1">
+            <div class="h-full bg-[rgba(0,0,0,0.4)] py-14 flex flex-col justify-center items-center">
+              <h4 class="font-noto font-bold text-[20px]">60% Off | Bloom Plant</h4>
+              <a class="font-semibold px-24 py-5 text-base underline" href="">Shop Now</a>
+            </div>
+          </div>
+          <div
+            class="bg-[url('../assets/deal-ana.png')] bg-no-repeat bg-cover rounded-[14px] overflow-hidden md:col-span-4 md:row-span-3 md:row-start-4">
+            <div class="h-full bg-[rgba(0,0,0,0.4)] py-14 flex flex-col justify-center items-center">
+              <h4 class="font-noto font-bold text-[20px]">30% Off | Ana Plant</h4>
+              <a class="font-semibold px-24 py-5 text-base underline" href="">Shop
+                Now</a>
             </div>
           </div>
 
           <div
-            class="bg-[url(../assets/deal-ana.png)] bg-no-repeat bg-cover bg-center rounded-[14px] overflow-hidden md:col-span-6 lg:col-span-4 lg:row-start-7 lg:-row-end-1">
-            <div class="text-center bg-[rgba(0,0,0,0.4)] px-4 py-14 h-full flex justify-center items-center flex-col">
-              <h5 class="text-xl font-[Noto_Serif] font-bold mb-1.5">
-                30% Off | Ana Plant
-              </h5>
-              <a href="#" class="text-base font-semibold underline">Shop Now</a>
+            class="bg-[url('../assets/deal-zabo.png')] bg-no-repeat bg-cover rounded-[14px] overflow-hidden md:col-span-8 md:row-span-6 md:col-start-5">
+            <div class="h-full bg-[rgba(0,0,0,0.4)] py-14 flex flex-col justify-center items-center">
+              <h4 class="font-noto font-bold text-[20px] md:text-[40px]">25% Off | Zabo Plant</h4>
+              <a class="font-semibold px-24 py-5 md:text-[28px] underline flex flex-col justify-center items-center"
+                href="">Shop
+                Now</a>
             </div>
           </div>
-
-          <div
-            class="bg-[url(../assets/deal-zabo.png)] bg-no-repeat bg-cover bg-center rounded-[14px] overflow-hidden md:col-span-12 lg:col-span-8 lg:row-start-1 lg:-row-end-1">
-            <div class="text-center bg-[rgba(0,0,0,0.4)] px-4 py-14 h-full flex justify-center items-center flex-col">
-              <h5 class="text-xl md:text-3xl lg:text-[40px] font-[Noto_Serif] font-bold mb-1.5">
-                25% Off | Zabo Plant
-              </h5>
-              <a href="#" class="text-base md:text-xl lg:text-[28px] font-semibold underline">Shop Now</a>
-            </div>
+        </div>
+      </div>
+    </section>
+    <section class="max-w-[1440px] mx-auto px-3">
+      <div class="bg-[url('../assets/news-letter-bg.png')] bg-no-repeat bg-cover bg-center ">
+        <div class="bg-[rgba(7,51,79,0.4)]">
+          <div class="max-w-[320px] md:max-w-[830px] mx-auto w-full py-24 md:py-[200px] ">
+            <h2 class="text-center font-noto font-bold text-[20px] md:text-[50px] text-white mb-4">Join the colorful
+              Bunch</h2>
+            <form class="flex items-center justify-center" action="">
+              <input class="text-p bg-white w-full py-[15px] pl-5" type="email" name="" id="" placeholder="Enter Email">
+              <input class="font-semibold text-white bg-[#E95A08] px-5 py-[15px] cursor-pointer" type="button"
+                value="Subscribe">
+            </form>
           </div>
         </div>
       </div>
     </section>
   </main>
   <footer>
-    <section class="max-w-[1440px] mx-auto">
-      <div class="bg-[url(/dist/assets/news-letter-bg.png)]">
 
+
+    <section>
+      <div class="custom-container px-3">
+        <div>
+          <img src="./dist/assets/logo.png" alt="">
+        </div>
+
+
+        <div></div>
+        <div></div>
       </div>
-
     </section>
+
+
+    <!-- <section class="" py-16">
+      <div class="container mx-auto px-4 my-[50px]">
+        <div class="flex flex-col md:flex-row justify-between gap-5 lg:gap-11">
+          <div class="sm:max-w-[359px]">
+            <a href="index.html" class="w-44 block">
+              <img src="./dist/assets/logo.png" alt="Flower Shop Logo" class="max-w-full" />
+            </a>
+            <p class="mt-[26px] text-base">
+              Indulge your senses with the beauty and fragrance of our fresh
+              flower shop.
+            </p>
+          </div>
+
+          <ul class="grid grid-cols-1 md:grid-cols-2 gap-8 text-base text-[#6B7280] md:min-w-[242px] lg:min-w-auto">
+            <li>
+              <a href="#" class="hover:underline hover:text-black transition-all">Home</a>
+            </li>
+            <li>
+              <a href="#" class="hover:underline hover:text-black transition-all">About Us</a>
+            </li>
+            <li>
+              <a href="#" class="hover:underline hover:text-black transition-all">Blog</a>
+            </li>
+            <li>
+              <a href="#" class="hover:underline hover:text-black transition-all">FAQ</a>
+            </li>
+            <li>
+              <a href="#" class="hover:underline hover:text-black transition-all">Contact Us</a>
+            </li>
+            <li>
+              <a href="#" class="hover:underline hover:text-black transition-all">Features</a>
+            </li>
+            <li>
+              <a href="#" class="hover:underline hover:text-black transition-all">Pricing</a>
+            </li>
+            <li>
+              <a href="#" class="hover:underline hover:text-black transition-all">Privacy Policy</a>
+            </li>
+            <li>
+              <a href="#" class="hover:underline hover:text-black transition-all">Terms of Service</a>
+            </li>
+            <li>
+              <a href="#" class="hover:underline hover:text-black transition-all">Help Center</a>
+            </li>
+          </ul>
+
+          <div class="inline-flex items-center gap-6 h-fit">
+            <a href="#" aria-label="Social Icon" class="w-9">
+              <img src="./dist/assets/icon-facebook.png" alt="" class="max-w-full" />
+            </a>
+            <a href="#" aria-label="Social Icon" class="w-9">
+              <img src="./dist/assets/icon-twitter.png" alt="" class="max-w-full" />
+            </a>
+            <a href="#" aria-label="Social Icon" class="w-9">
+              <img src="./dist/assets/icon-facebook.png" alt="" class="max-w-full" />
+            </a>
+            <a href="#" aria-label="Social Icon" class="w-9">
+              <img src="./dist/assets/icon-youtube.png" alt="" class="max-w-full" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section> -->
   </footer>
 </body>
 
