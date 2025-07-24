@@ -524,6 +524,9 @@
   .bg-red-300 {
     background-color: var(--color-red-300);
   }
+  .bg-\[url\(\'\.\.\/assets\/deal-bloom\.png\'\)\] {
+    background-image: url('../assets/deal-bloom.png');
+  }
   .bg-\[url\(\'\.\.\/dist\/assets\/deal-bloom\.png\'\)\] {
     background-image: url('../dist/assets/deal-bloom.png');
   }
@@ -539,11 +542,23 @@
   .bg-\[url\(\)\] {
     background-image: url();
   }
+  .bg-\[url\(\.\.\/assets\/deal-ana\.png\)\] {
+    background-image: url(../assets/deal-ana.png);
+  }
+  .bg-\[url\(\.\.\/assets\/deal-zabo\.png\)\] {
+    background-image: url(../assets/deal-zabo.png);
+  }
   .bg-\[url\(\.\.\/dist\/assets\/deal-bloom\.png\)\] {
     background-image: url(../dist/assets/deal-bloom.png);
   }
   .bg-\[url\(\.\/dist\/assets\/deal-bloom\.png\)\] {
     background-image: url(./dist/assets/deal-bloom.png);
+  }
+  .bg-\[url\(\.dist\/assets\/deal-bloom\.png\)\] {
+    background-image: url(.dist/assets/deal-bloom.png);
+  }
+  .bg-\[url\(\/assets\/deal-ana\.png\)\] {
+    background-image: url(/assets/deal-ana.png);
   }
   .bg-\[url\(\/dist\/assets\)\] {
     background-image: url(/dist/assets);
@@ -580,6 +595,9 @@
   }
   .bg-\[url\(deal-zabo\.png\)\] {
     background-image: url(deal-zabo.png);
+  }
+  .bg-\[url\(dist\/assets\/deal-bloom\.png\)\] {
+    background-image: url(dist/assets/deal-bloom.png);
   }
   .bg-cover {
     background-size: cover;
