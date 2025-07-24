@@ -4,16 +4,57 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
   <title>Flower Shop</title>
   <link rel="stylesheet" href="./dist/styles/flower.css">
+
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
     integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
-<body class="max-w-[1440px] mx-auto bg-[#F5F8FF]">
-  <h1 class=" font-noto bg-amber-300">Wellcome To Flower Shop</h1>
+<body class="">
+  <header class="custom-container">
+    <!-- Nab bar -->
+    <nav class="flex justify-between items-center mt-7 px-3 mb-7 md:mb-32 md:px-0">
+      <div>
+        <img src="./dist/assets/logo.png" alt="">
+      </div>
+      <div>
+        <div class="flex items-center gap-12">
+          <ul class="hidden md:block md:flex md:gap-12">
+            <li><a class="block text-[#252432] text-base/6 hover:text-[#252432] hover:font-bold transition"
+                href="">Home</a></li>
+            <li><a class="block text-[#8987A1] text-base/6 hover:text-[#252432] hover:font-bold transition"
+                href="">Shop</a></li>
+            <li><a class="block text-[#8987A1] text-base/6 hover:text-[#252432] hover:font-bold transition"
+                href="">About Us</a>
+            </li>
+          </ul>
+          <div>
+            <span class="text-base/6"> <a href=""> <i class="fa-solid fa-cart-shopping"></i> </i> Cart
+                ($56)</a></span>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Banner -->
+    <div class="flex justify-between items-end">
+      <div class="flex-1">
+        <h1 class="text-[65px] font-bold text-left"><span>ALWAYS</span> <span class="text-[#E95A08]">FRESH
+            FLOWERS</span> </h1>
+        <p class="text-p">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic
+          roses to exotic
+          blooms, we
+          offer a wide variety of fresh flowers that are perfect for any occasion.</p>
+      </div>
+      <div class="flex-1">
+        <img class=" object-contain w-full" src="./dist/assets/hero-flower.png" alt="">
+      </div>
+    </div>
+
+  </header>
+
 </body>
 
 </html>
