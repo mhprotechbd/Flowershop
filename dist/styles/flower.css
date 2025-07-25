@@ -738,6 +738,16 @@
       outline-width: 0px;
     }
   }
+  .sm\:ml-0 {
+    @media (width >= 40rem) {
+      margin-left: calc(var(--spacing) * 0);
+    }
+  }
+  .sm\:ml-3 {
+    @media (width >= 40rem) {
+      margin-left: calc(var(--spacing) * 3);
+    }
+  }
   .sm\:ml-9 {
     @media (width >= 40rem) {
       margin-left: calc(var(--spacing) * 9);
