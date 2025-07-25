@@ -552,8 +552,17 @@
   .pl-5 {
     padding-left: calc(var(--spacing) * 5);
   }
+  .pl-6 {
+    padding-left: calc(var(--spacing) * 6);
+  }
   .pl-7 {
     padding-left: calc(var(--spacing) * 7);
+  }
+  .pl-8 {
+    padding-left: calc(var(--spacing) * 8);
+  }
+  .pl-10 {
+    padding-left: calc(var(--spacing) * 10);
   }
   .text-center {
     text-align: center;
@@ -1194,6 +1203,11 @@
       padding-block: 200px;
     }
   }
+  .md\:pl-5 {
+    @media (width >= 48rem) {
+      padding-left: calc(var(--spacing) * 5);
+    }
+  }
   .md\:text-3xl {
     @media (width >= 48rem) {
       font-size: var(--text-3xl);
@@ -1480,6 +1494,31 @@
       width: calc(var(--spacing) * 64);
     }
   }
+  .xl\:w-68 {
+    @media (width >= 80rem) {
+      width: calc(var(--spacing) * 68);
+    }
+  }
+  .xl\:w-72 {
+    @media (width >= 80rem) {
+      width: calc(var(--spacing) * 72);
+    }
+  }
+  .xl\:w-\[15rem\] {
+    @media (width >= 80rem) {
+      width: 15rem;
+    }
+  }
+  .xl\:w-\[17rem\] {
+    @media (width >= 80rem) {
+      width: 17rem;
+    }
+  }
+  .xl\:w-\[72\] {
+    @media (width >= 80rem) {
+      width: 72;
+    }
+  }
   .xl\:w-full {
     @media (width >= 80rem) {
       width: 100%;
@@ -1518,6 +1557,11 @@
   .xl\:gap-20 {
     @media (width >= 80rem) {
       gap: calc(var(--spacing) * 20);
+    }
+  }
+  .xl\:pl-10 {
+    @media (width >= 80rem) {
+      padding-left: calc(var(--spacing) * 10);
     }
   }
   .xl\:text-3xl {
