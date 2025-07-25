@@ -1390,6 +1390,21 @@
       width: calc(var(--spacing) * 48);
     }
   }
+  .xl\:max-w-\[540px\] {
+    @media (width >= 80rem) {
+      max-width: 540px;
+    }
+  }
+  .xl\:max-w-\[1140px\] {
+    @media (width >= 80rem) {
+      max-width: 1140px;
+    }
+  }
+  .xl\:max-w-\[full\] {
+    @media (width >= 80rem) {
+      max-width: full;
+    }
+  }
   .xl\:max-w-full {
     @media (width >= 80rem) {
       max-width: 100%;
@@ -1403,6 +1418,17 @@
   .xl\:flex-2\/3 {
     @media (width >= 80rem) {
       flex: calc(2/3 * 100%);
+    }
+  }
+  .xl\:gap-20 {
+    @media (width >= 80rem) {
+      gap: calc(var(--spacing) * 20);
+    }
+  }
+  .xl\:text-3xl {
+    @media (width >= 80rem) {
+      font-size: var(--text-3xl);
+      line-height: var(--tw-leading, var(--text-3xl--line-height));
     }
   }
 }
